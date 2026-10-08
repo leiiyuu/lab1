@@ -1,11 +1,11 @@
 ```mermaid
 erDiagram
-    CLIENTS ||--o{ RENTALS 
-    POINTS ||--o{ EQUIPMENT
-    RENTALS ||--o{ RENTAL_ITEMS
-    EQUIPMENT ||--o{ RENTAL_ITEMS
-    RENTALS ||--o{ DEPOSITS
-    CLIENTS ||--o{ DEPOSITS
+    CLIENTS ||--o{ RENTALS :
+    POINTS ||--o{ EQUIPMENT :
+    RENTALS ||--o{ RENTAL_ITEMS :
+    EQUIPMENT ||--o{ RENTAL_ITEMS :
+    RENTALS ||--o{ DEPOSITS :
+    CLIENTS ||--o{ DEPOSITS :
 
     CLIENTS {
         integer id PK
