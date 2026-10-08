@@ -1,3 +1,4 @@
+```mermaid
 erDiagram
     CLIENTS ||--o{ RENTALS : "оформляет"
     POINTS ||--o{ EQUIPMENT : "находится в"
@@ -54,3 +55,4 @@ erDiagram
         text status
         timestamptz created_at
     }
+```
